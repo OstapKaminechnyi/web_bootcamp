@@ -1,31 +1,31 @@
 # web_bootcamp
 
 Syllabus
-1. Intermediate HTML
+- [x] Intermediate HTML
 
-2. Advanced CSS
+- [x] Advanced CSS
 
-3. Bootstrap
+- [x] Bootstrap
 
-4. JavaScript: Functions
+- [x] JavaScript: Functions
 
-5. JavaScript: Arrays
+- [ ] JavaScript: Arrays
 
-6. JavaScript: Objects
+- [ ] JavaScript: Objects
 
-7. DOM Manipulation
+- [ ] DOM Manipulation
 
-8. DOM Events
+- [ ] DOM Events
 
-9. Advanced jQuery
+- [ ] Advanced jQuery
 
-10. Backend Basics
+- [ ] Backend Basics
 
-11. Intermediate Express
+- [ ] Intermediate Express
 
-12. Databases: MongoDB
+- [ ] Databases: MongoDB
 
-13. YelpCamp: Data Persistence
+- [ ] YelpCamp: Data Persistence
 
 14. RESTful Routing - Blog App
 
