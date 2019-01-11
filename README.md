@@ -27,14 +27,14 @@ Syllabus
 
 - [ ] YelpCamp: Data Persistence
 
-14. RESTful Routing - Blog App
+- [ ] RESTful Routing - Blog App
 
-15. Semantic UI
+- [ ] Semantic UI
 
-16. Databases: Associations
+- [ ] Databases: Associations
 
-17. YelpCamp: Comments
+- [ ] YelpCamp: Comments
 
-18. YelpCamp: Adding Auth
+- [ ] YelpCamp: Adding Auth
 
-19. YelpCamp: Cleaning Up
+- [ ] YelpCamp: Cleaning Up
