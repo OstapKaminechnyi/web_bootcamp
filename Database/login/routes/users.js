@@ -56,7 +56,7 @@ req.checkBody('password2','Password do not match').equals(req.body.password);
 			console.log(user);
 		});
 
-		req.flash('success_msg',"Success!");
+		req.flash('success_msg',"Success");
 
 		res.redirect('/users/login');
 	}
@@ -73,7 +73,7 @@ passport.use(new LocalStrategy(
   	if(err) throw err;
   	if(!user){
 
-  		return done(null , false , {message :'unknown User'});
+  		return done(null , false , {message :'Unknown User'});
   	}
   		User.comparePassword(password, user.password , function(err , isMatch){
   
@@ -115,5 +115,13 @@ router.post('/login',
     	res.redirect('/index');
     	req.flash('success_msg',"Success!");
   });
+
+router.get('/logout',function(req,res){
+	req.logout();
+
+	req.flash('success_msg','You are logged out');
+
+	res.redirect('/users/login');
+});
 
 module.exports = router;
